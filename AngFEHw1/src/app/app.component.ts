@@ -34,7 +34,7 @@ import { FahrenheitPipe} from "./app.fahrenheitPipe";
               providers: [MyDataServiceService, TemperatureServiceService]
 
 
-})
+});
 export class AppComponent {
   celsius: number;
   price: number = 23.23333;
